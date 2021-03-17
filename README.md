@@ -1,2 +1,4 @@
 # desarrolloWeb-CODER
 Proyecto Final
+Proyecto Final del curso de Desarrollo Web de CODER House, incluyendo conceptos de código HTML, Estilos CSS, preprocesador SASS, Bootstrap, Git, GitHub, subida al server y SEO.
+Se pretende llegar a usuarios jóvenes de cualquier sexo, que disfruten viajar y busquen aventuras sin límites geográficos. La web intenta aportar al usuario toda la información necesaria respecto a trámites administrativos previos, artículos necesarios para transportar, regulaciones de cada país, feriados nacionales, vacunaciones y visados, y todo lo relativo a preparativos pre-viajes. Posee incluso una sección propia de venta de artículos tales como los necesarios para disfrutar de aventuras al aire libre, inmersos en la naturaleza, o artículos para hacer que vuelos de larga duración sean lo más placenteros posible.

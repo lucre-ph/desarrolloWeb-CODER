@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content= "width=device-width, initial-scale= 1.0"/>
+        <meta name="description" content="Te acercamos los destinos más visitados, para que puedas decidir tus próximos pasos">
+        <meta name="keywords" content="html, js, meta, viajes, organización">
+        <title>TVI Destinos</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;1,400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" 
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="../css/estilosVIEJO.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+    </head>
+
+    <body>
+    
+
+<!--header-->     
+        <div class="container-fluid mb-5" id="header">
+            <div class="d-flex align-items-center">
+                <div class="justify-items-start">
+                    <a class="navbar-brand" href="../index.html"><img src="../imagenes/logo2.png" class="img-responsive img-thumbnail" id="logo" 
+                    alt="logo"></a>
+                </div>
+                <div class="col-md-10">
+                    <h1 class="headTitle animate__animated animate__fadeIn">Destinos por el mundo</h1>
+                </div>
+            </div>
+            <form class="languagesIndex" id="idiomas"> 
+                <label for="idioma">IDIOMA:</label>
+                <select name="idioma">
+                    <option value="es">Español</option>
+                    <option value="eng">Inglés</option>
+                    <option value="por">Portugués</option>
+                </select>
+            </form>
+
+
+<!--navbar-->
+            <nav class="navbar navbar-expand-md navbar-dark navbar-toggler" id="navegacion" type="button" data-toggle="collapse">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse ml-3" id="navbarResponsive">
+                        <ul class="navbar-nav flexMainMenuIndex">
+                            <li class="nav-item">
+                                <a class="nav-link animate__animated animate__fadeInDown" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link animate__animated animate__fadeInDown active" href="./destinos.html">Destinos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link animate__animated animate__fadeInDown" href="./experiencias.html">Experiencias</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link animate__animated animate__fadeInDown" href="./tienda.html">Tienda</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link animate__animated animate__fadeInDown" href="./contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+
+<!--informacionDestinos-->        
+        <section class="d-inline-flex mb-5 container"> 
+            <div class="col-3">
+                <div class="dropdown">
+                    <a class="btn btn-lg af dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Continentes
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item af" href="#africa">África</a>
+                        <a class="dropdown-item am" href="#aNorte">América del Norte</a>
+                        <a class="dropdown-item am" href="#aCentral">América Central</a>
+                        <a class="dropdown-item am" href="#aSur">América del Sur</a>
+                        <a class="dropdown-item as" href="#asia">Asia</a>
+                        <a class="dropdown-item eu" href="#euro">Europa</a>
+                        <a class="dropdown-item oc" href="#ocea">Oceanía</a>
+                    </div>
+                </div>
+            </div>
+
+<!--googleMaps-->   
+            <iframe class="mapa col-9" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d54053823.61325587!2d-14.0022751!3d34.2183309!3m2!
+            1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1612671074559!5m2!1ses!2sar" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </section>
+
+
+<!--africa-->    
+        <section> 
+            <div class="card-group container mx-auto mb-5">
+                <div class="row no-gutters">
+                    <div class="card col-md-4">
+                        <img src="../imagenes/africa.jpg" alt="egipto" class="destino">
+                    </div>
+                    <div class="card col-md-8" id="africa">
+                        <h3 class="card-header bg-dark text-white">África</h3>
+                        <div class="card-body">
+                            <h4 class="card-title">Egipto</h4>
+                            <ul class= "list-group list-group-flush">
+                                <li class="list-group-item">Capital: El Cairo.</li>
+                                <li class="list-group-item">Población: 102 millones (2020).</li>
+                                <li class="list-group-item">Idioma: Árabe estándar moderno.</li>
+                                <li class="list-group-item">Huso horario: GMT +2.</li>
+                                <li class="list-group-item">Moneda oficial: Libra egipcia.</li>
+                                <li class="list-group-item">Clima: seco.</li>
+                                <li class="list-group-item">Principales lugares para visitar: El Cairo, Guiza, Alejandría, Lúxor, Asuán, Hurgada,Sharm el-Sheij.</li>
+                                <li class="list-group-item">“Hola”, “Por Favor” y “Gracias” en el idioma local: «Marhabaan», «Min Fadlik» y «Shukraan» respectivamente.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+<!--americaDelNorte-->                              
+            <div class="card-group container mx-auto mb-5">
+                <div class="row no-gutters">
+                    <div class="card col-md-8" id="aNorte">
+                        <h3 class="card-header bg-danger text-white">América del Norte</h3>
+                        <div class="card-body">
+                            <h4 class="card-title">Canadá</h4>
+                            <ul class= "list-group list-group-flush">
+                                <li class="list-group-item">Capital: Ottawa.</li>
+                                <li class="list-group-item">Población: 37.59 millones (2019).</li>
+                                <li class="list-group-item">Idioma: Inglés y Francés.</li>
+                                <li class="list-group-item">Huso horario: GMT -4.</li>
+                                <li class="list-group-item">Moneda oficial: Dólar canadiense.</li>
+                                <li class="list-group-item">Clima: templado tirando a frío.</li>
+                                <li class="list-group-item">Principales lugares para visitar: Ottawa, Toronto, Vancouver, Montreal, Quebec, Calgary, Banff.</li>
+                                <li class="list-group-item">“Hola”, “Por Favor” y “Gracias” en el idioma local: «Hello» o «Bonjour»; «Please» o «S'il vous plait»; y «Thank You» o «Merci» respectivamente.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card col-md-4">
+                        <img src="../imagenes/adn.jpg" alt="canada" class="destino">
+                    </div>
+                </div>
+            </div>
+        
+
+<!--americaCentral-->
+            <div class="card-group container mx-auto mb-5">
+                <div class="row no-gutters">
+                    <div class="card col-md-4">
+                        <img src="../imagenes/ac.jpg" alt="mexico" class="destino">
+                    </div>
+                    <div class="card col-md-8" id="aCentral">
+                        <h3 class="card-header bg-danger text-white">América Central</h3>
+                        <div class="card-body">
+                            <h4 class="card-title">México</h4>
+                            <ul class= "list-group list-group-flush">
+                                <li class="list-group-item">Capital: Ciudad de Mexico.</li>
+                                <li class="list-group-item">Población: 127.09 millones (2020).</li>
+                                <li class="list-group-item">Idioma: Español.</li>
+                                <li class="list-group-item">Huso horario: UTC -6.</li>
+                                <li class="list-group-item">Moneda oficial: Peso mexicano.</li>
+                                <li class="list-group-item">Clima: zonas templadas y tropicales.</li>
+                                <li class="list-group-item">Principales lugares para visitar: Ciudad de México, Guadalajara, Monterrey, Cancún y la Riviera Maya, Puebla, Huasteca Potosina, Puerto Vallarta, Oaxaca.</li>
+                                <li class="list-group-item">“Hola”, “Por Favor” y “Gracias” en el idioma local: «Hola», «Por Favor» y «Gracias» respectivamente.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+<!--americaDelSur-->                            
+            <div class="card-group container mx-auto mb-5">
+                <div class="row no-gutters">
+                    <div class="card col-md-8" id="aSur">
+                        <h3 class="card-header bg-danger text-white">América del Sur</h3>
+                        <div class="card-body">
+                            <h4 class="card-title">Brasil</h4>
+                            <ul class= "list-group list-group-flush">
+                                <li class="list-group-item">Capital: Brasilia.</li>
+                                <li class="list-group-item">Población: 211.38 millones (2020).</li>
+                                <li class="list-group-item">Idioma: Portugues.</li>
+                                <li class="list-group-item">Huso horario: GMT -3 (capital).</li>
+                                <li class="list-group-item">Moneda oficial: Real brasileño.</li>
+                                <li class="list-group-item">Clima: mayormente cálido.</li>
+                                <li class="list-group-item">Principales lugares para visitar: Río de Janeiro, São Paulo, Salvador de Bahía, Foz do Iguaçu, Búzios, Torres.</li>
+                                <li class="list-group-item">“Hola”, “Por Favor” y “Gracias” en el idioma local: «Olá», «Por Favor» y «Obrigado» respectivamente.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card col-md-4">
+                        <img src="../imagenes/ads.jpg" alt="brasil" class="destino">
+                    </div>
+                </div>
+            </div>
+
+
+<!--asia-->    
+            <div class="card-group container mx-auto mb-5">
+                <div class="row no-gutters">
+                    <div class="card col-md-4">
+                        <img src="../imagenes/asia.jpg" alt="vietnam" class="destino">
+                    </div>
+                    <div class="card col-md-8" id="asia">
+                        <h3 class="card-header bg-warning text-white">Asia</h3>
+                        <div class="card-body">
+                            <h4 class="card-title">Vietman</h4>
+                            <ul class= "list-group list-group-flush">
+                                <li class="list-group-item">Capital: Hanói.</li>
+                                <li class="list-group-item">Población: 95.60 millones (2019).</li>
+                                <li class="list-group-item">Idioma: Vietnamita.</li>
+                                <li class="list-group-item">Huso horario: GMT +7.</li>
+                                <li class="list-group-item">Moneda oficial: Dong vietnamita.</li>
+                                <li class="list-group-item">Clima: mucha diversidad climática; mientras más al norte del país viajes, más frío.</li>
+                                <li class="list-group-item">Principales lugares para visitar: Hanói, Hoi An, Halong Bay, Ho Chi Minh, Hue.</li>
+                                <li class="list-group-item">“Hola”, “Por Favor” y “Gracias” en el idioma local: «Xin chao» o «Chao», «xin vui lòng» y «Kahm uhn» respectivamente.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+
+
+<!--europa-->    
+            <div class="card-group container mx-auto mb-5">
+                <div class="row no-gutters">
+                    <div class="card col-md-8" id="euro">
+                        <h3 class="card-header bg-primary text-white">Europa</h3>
+                        <div class="card-body">
+                            <h4 class="card-title">Londres</h4>
+                            <ul class= "list-group list-group-flush">
+                                <li class="list-group-item">Capital: Londres.</li>
+                                <li class="list-group-item">Población: 55.98 millones (2019).</li>
+                                <li class="list-group-item">Idioma: Inglés.</li>
+                                <li class="list-group-item">Huso horario: GMT +1</li>
+                                <li class="list-group-item">Moneda oficial: Libra Esterlina.</li>
+                                <li class="list-group-item">Clima: tiene un clima marítimo templado.</li>
+                                <li class="list-group-item">Principales lugares para visitar: Londres, Oxford, Liverpool, Bristol, Cambridge, Mánchester.</li>
+                                <li class="list-group-item">“Hola”, “Por Favor” y “Gracias” en el idioma local: «Hello», «Please» y «Thank You» respectivamente. </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card col-md-4">
+                        <img src="../imagenes/euro.jpg" alt="londres" class="destino">
+                    </div>
+                </div>
+            </div>   
+
+
+<!--oceania-->    
+            <div class="card-group container mx-auto mb-5">
+                <div class="row no-gutters">
+                    <div class="card col-md-4">
+                        <img src="../imagenes/ocea.jpg" alt="nuevaZelanda" class="destino">
+                    </div>
+                    <div class="card col-md-8" id="ocea">
+                        <h3 class="card-header bg-success text-white">Oceanía</h3>
+                        <div class="card-body">
+                            <h4 class="card-title">Nueva Zelanda</h4>
+                            <ul class= "list-group list-group-flush">
+                                <li class="list-group-item">Capital: Wellington.</li>
+                                <li class="list-group-item">Población: 4,40 millones (2020).</li>
+                                <li class="list-group-item">Idioma: Idioma maorí, Inglés, Lenguaje de señas de Nueva Zelanda.</li>
+                                <li class="list-group-item">Huso horario: GMT +13.</li>
+                                <li class="list-group-item">Moneda oficial: Dólar neozelandés.</li>
+                                <li class="list-group-item">Clima: muy variable.</li>
+                                <li class="list-group-item">Principales lugares para visitar: Auckland, Queenstown, Christchurch, Milford Sound, Rotorua, Wellington, Bay of Island.</li>
+                                <li class="list-group-item">“Hola”, “Por Favor” y “Gracias” en el idioma local: «Kia ora», «Tēnā koa» y «Mauruuru» respectivamente. </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </section>
+
+
+<!--footer-->
+        <footer class="container-fluid" id="pie">
+            <div class="col-md-5">
+                <div class="d-flex flex-column bd-highlight mb-3">
+                    <div class="p-2 bd-highlight"><span class="material-icons" id="icons">room</span> Microcentro. Buenos Aires, Argentina</div>
+                    <div class="p-2 bd-highlight"><span class="material-icons" id="icons">email</span> tuviajeideal@tvi.com.ar</div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="d-flex flex-column social bd-highlight mb-3">
+                    <div class="p-2 bd-highlight">Redes sociales
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="p-2 bd-highlight"><span class="material-icons" id="icons">call</span> +54 1122334455 / +54 1122334466</div>
+                </div>
+            </div>
+<!--btnBackToTop-->
+            <div>
+                <a class="material-icons btt" style="font-size:5vw" href="#">arrow_circle_up</a>
+            </div>
+        </footer>   
+
+        <div class="d-flex justify-content-center" id="cierre">Copyright 2019 © Tu viaje Ideal. Todos los derechos reservados. 
+            <span> | Diseño Web por Lucrecia Pedraza</span>
+        </div>
+        
+
+<!--scripts-->
+        <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    </body>
+</html>

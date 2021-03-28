@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content= "width=device-width, initial-scale= 1.0"/>
+        <meta name="description" content="Tienda online con todo lo que podes necesitar para que tu próxima aventura sea la mejor">
+        <meta name="keywords" content="html, js, meta, viajes, organización">
+        <title>TVI Tienda</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;1,400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" 
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="../css/estilosVIEJO.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+    </head>
+
+    <body>
+
+<!--header-->
+        <div class="container-fluid mb-5" id="header">
+            <div class="d-flex align-items-center">
+                <div class="justify-items-start">
+                    <a class="navbar-brand" href="../index.html"><img src="../imagenes/logo2.png" class="img-responsive img-thumbnail" id="logo" 
+                    alt="logo"></a>
+                </div>
+                <div class="col-md-10">
+                    <h1 class="headTitle animate__animated animate__fadeIn">Tienda online</h1>
+                </div>
+            </div>
+            <form class="languagesIndex" id="idiomas"> 
+                <label for="idioma">IDIOMA:</label>
+                <select name="idioma">
+                    <option value="es">Español</option>
+                    <option value="eng">Inglés</option>
+                    <option value="por">Portugués</option>
+                </select>
+            </form>
+
+
+<!--nabvar-->
+        <nav class="navbar navbar-expand-md navbar-dark navbar-toggler" id="navegacion" type="button" data-toggle="collapse">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ml-3" id="navbarResponsive">
+                    <ul class="navbar-nav flexMainMenuIndex">
+                        <li class="nav-item">
+                            <a class="nav-link animate__animated animate__fadeInDown" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link animate__animated animate__fadeInDown" href="./destinos.html">Destinos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link animate__animated animate__fadeInDown" href="./experiencias.html">Experiencias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link animate__animated animate__fadeInDown active" href="./tienda.html">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link animate__animated animate__fadeInDown" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+<!--ventaArticulos-->        
+        <div class="d-flex flex-row justify-content-center">
+            <div class="card border-dark m-3">
+                <img src="../imagenes/armyKnife.jpg" class="card-img-top" alt="cortaplumas">
+                <div class="card-body">
+                    <h5 class="card-title" id="lineHeight2">Cortaplumas<span class="d-block">$799,99</span></h5>
+                    <a href="#" class="btn btn-info"><span class="material-icons">add_shopping_cart</span>Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="card border-dark m-3">
+                <img src="../imagenes/binoculars.jpg" class="card-img-top" alt="binoculares">
+                <div class="card-body">
+                    <h5 class="card-title" id="lineHeight2">Binoculares<span class="d-block">$1500,00</span></h5>
+                    <a href="#" class="btn btn-info"><span class="material-icons">add_shopping_cart</span>Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="card border-dark m-3">
+                <img src="../imagenes/mochila.jpg" class="card-img-top" alt="mochila">
+                <div class="card-body">
+                    <h5 class="card-title" id="lineHeight2">Mochila<span class="d-block">$1000,99</span></h5>
+                    <a href="#" class="btn btn-info"><span class="material-icons">add_shopping_cart</span>Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="card border-dark m-3">
+                <img src="../imagenes/linterna.jpg" class="card-img-top" alt="linterna">
+                <div class="card-body">
+                    <h5 class="card-title" id="lineHeight2">Linterna<span class="d-block">$600,00</span></h5>
+                    <a href="#" class="btn btn-info"><span class="material-icons">add_shopping_cart</span>Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="card border-dark m-3">
+                <img src="../imagenes/termo.jpg" class="card-img-top" alt="termo">
+                <div class="card-body">
+                    <h5 class="card-title" id="lineHeight2">Termo<span class="d-block">$1000,99</span></h5>
+                    <a href="#" class="btn btn-info"><span class="material-icons">add_shopping_cart</span>Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-row justify-content-center mb-5">
+            <div class="card border-dark m-3">
+                <img src="../imagenes/tent.jpg" class="card-img-top" alt="carpa">
+                <div class="card-body">
+                    <h5 class="card-title" id="lineHeight2">Carpa<span class="d-block">$5000,99</span></h5>
+                    <a href="#" class="btn btn-info"><span class="material-icons">add_shopping_cart</span>Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="card border-dark m-3">
+                <img src="../imagenes/suitcase2.jpg" class="card-img-top" alt="valija">
+                <div class="card-body">
+                    <h5 class="card-title" id="lineHeight2">Valija<span class="d-block">$2000,99</span></h5>
+                    <a href="#" class="btn btn-info"><span class="material-icons">add_shopping_cart</span>Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="card border-dark m-3">
+                <img src="../imagenes/hat.jpg" class="card-img-top" alt="sombrero">
+                <div class="card-body">
+                    <h5 class="card-title" id="lineHeight2">Sombrero<span class="d-block">$1300,00</span></h5>
+                    <a href="#" class="btn btn-info"><span class="material-icons">add_shopping_cart</span>Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="card border-dark m-3">
+                <img src="../imagenes/mapsHandbag.jpg" class="card-img-top" alt="bolsoMapas">
+                <div class="card-body">
+                    <h5 class="card-title" id="lineHeight2">Bolso Mapas<span class="d-block">$1900,99</span></h5>
+                    <a href="#" class="btn btn-info"><span class="material-icons">add_shopping_cart</span>Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="card border-dark m-3">
+                <img src="../imagenes/handbag.jpg" class="card-img-top" alt="bolsoMarrón">
+                <div class="card-body">
+                    <h5 class="card-title" id="lineHeight2">Bolso marrón<span class="d-block">$2000,00</span></h5>
+                    <a href="#" class="btn btn-info"><span class="material-icons">add_shopping_cart</span>Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+
+
+<!--botonPaginaActual-->
+        <nav aria-label="Online shopping pages">
+            <ul class="pagination pagination-lg justify-content-center mb-5">
+                <li class="page-item disabled">
+                    <a class="page-link" href="./tienda.html" tabindex="-1">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="./tiendaPag2.html">2</a>
+                </li>
+            </ul>
+        </nav>
+
+ 
+<!--footer-->
+        <footer class="container-fluid" id="pie">
+            <div class="col-md-5">
+                <div class="d-flex flex-column bd-highlight mb-3">
+                    <div class="p-2 bd-highlight"><span class="material-icons" id="icons">email</span> tuviajeideal@tvi.com.ar</div>
+                    <div class="p-2 bd-highlight"><span class="material-icons" id="icons">credit_card</span> Pagos con tarjeta o en efectivo</div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="d-flex flex-column social bd-highlight mb-3">
+                    <div class="p-2 bd-highlight">Redes sociales
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="p-2 bd-highlight"><span class="material-icons" id="icons">https</span> Compra protegida, seguridad garantizada</div>
+                </div>
+            </div>
+<!--btnBackToTop-->
+            <div>
+                <a class="material-icons btt" style="font-size:5vw" href="#">arrow_circle_up</a>
+            </div>
+        </footer>   
+
+        <div class="d-flex justify-content-center" id="cierre">Copyright 2019 © Tu viaje Ideal. Todos los derechos reservados. 
+            <span> | Diseño Web por Lucrecia Pedraza</span>
+        </div>
+
+
+<!--scripts-->
+        <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    </body>
+</html>
